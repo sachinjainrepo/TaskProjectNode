@@ -3,7 +3,7 @@ const tasks = require('./readjson');
 const validateTask = require('./validation');
 
 var deleteTask=tasks;
-
+//declare
 const app = express();
 app.use(express.json());
 //Get all tasks
